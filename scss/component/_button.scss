@@ -1,7 +1,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -9,11 +9,11 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-link;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $error-col_9-color;
 }
 
 .info {
@@ -25,5 +25,5 @@
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $warning-col_2-color;
 }

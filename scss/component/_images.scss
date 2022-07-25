@@ -1,24 +1,18 @@
 .img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  max-height: 100%;
+  @include img-dis-marg {
+    @include img-marg_top-max_width;
+    max-height: 100%;
+  }
 }
 
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid #ccc;
+  @include img-dis-marg {
+    @include img-marg_top-max_width;
+    padding: 13px;
+    border: 1px solid #ccc;
+  }
 }
 
 .img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include img-dis-marg;
 }

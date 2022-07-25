@@ -1,16 +1,12 @@
-@media (min-width: 768px) {
+@media #{$brk-medium} {
 
 .container {
   max-width: 1400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include img-dis-marg;
 }
 
 .centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include img-dis-marg;
 }
 
 .row {

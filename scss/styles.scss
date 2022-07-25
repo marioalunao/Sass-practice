@@ -3,20 +3,12 @@
 //==================================
 
 // Utilities
-@import 'utilities/variables',
-'utilities/mixins';
+@import 'utilities/index';
 
 // Base Styles
 
-@import 'base/base',
-'base/normalize',
-'base/typography';
+@import 'base/index';
 
 // Components
 
-@import 'component/button',
-'component/form',
-'component/grid',
-'component/navigation',
-'component/images',
-'component/media-queries';
+@import 'component/index';
