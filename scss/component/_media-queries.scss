@@ -1,4 +1,4 @@
-@media $brk-medium {
+@media #{$brk-medium} {
 
 .container {
   max-width: 1400px;
